@@ -19,4 +19,13 @@ dependencies = [
 
 dynamic = ["version"]
 
+[project.optional-dependencies]
+dev = [
+    "pytest"
+]
+
+gw = [
+    "bilby",
+]
+
 [tool.setuptools_scm]
